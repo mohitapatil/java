@@ -1,9 +1,11 @@
 package W4;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Streams {
     public static void main(String[] args) {
@@ -44,6 +46,10 @@ public class Streams {
         System.out.print(myProducts.toString().indexOf(99) +"\n");
         System.out.println(" ");
 
+        List<String> list1 = Arrays.asList("Java", "8");
+        List<String> list2 = Arrays.asList("explained", "through", "programs");
+ 
+        Stream.concat(list1.stream(), list2.stream()).forEach(str ->System.out.print(str + " "));
 
 
     }

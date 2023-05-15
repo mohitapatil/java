@@ -1,4 +1,4 @@
-package org.example.Builder;
+package org.example.Creational.Builder;
 
 public class PhoneBuilderDemo {
 

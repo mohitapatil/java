@@ -9,6 +9,6 @@ public class MySubscriber extends Subscriber{
     }
     @Override
     public void update() {
-        System.out.println( "My Subscriber: "+ this.name+ " has state "+ Integer.toBinaryString( content.getState() ) );
+        System.out.println( "My Subscriber: "+ this.name+ " has state "+ Integer.toString( content.getState() ) );
     }
 }

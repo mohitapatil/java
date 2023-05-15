@@ -6,12 +6,10 @@ public class ATMDispenseChain {
     private DispenseChain c1;
 
     public ATMDispenseChain() {
-        // initialize the chain
         this.c1 = new Dispense50Dollar();
         DispenseChain c2 = new Dispense20Dollar();
         DispenseChain c3 = new Dispense5Dollar();
 
-        // set the chain of responsibility
         c1.setNextChain(c2);
         c2.setNextChain(c3);
     }
