@@ -1,0 +1,43 @@
+2022-06-24 15:49:37,912 INFO com.sapient.Main [main] Before Sorting....
+2022-06-24 15:49:37,946 INFO com.sapient.Main [main] Claim(claimId=1485, policyNo=8374, claimAmount=9279, claimDate=2022-05-06)
+2022-06-24 15:49:37,946 INFO com.sapient.Main [main] Claim(claimId=1454, policyNo=8094, claimAmount=5792, claimDate=2022-09-25)
+2022-06-24 15:49:37,946 INFO com.sapient.Main [main] Claim(claimId=1242, policyNo=8815, claimAmount=533, claimDate=2022-05-03)
+2022-06-24 15:49:37,946 INFO com.sapient.Main [main] After Sorting by claim date....
+2022-06-24 15:49:37,948 INFO com.sapient.Main [main] Claim(claimId=2265, policyNo=5404, claimAmount=7052, claimDate=2022-03-09)
+2022-06-24 15:49:37,948 INFO com.sapient.Main [main] Claim(claimId=4717, policyNo=993, claimAmount=5969, claimDate=2022-06-15)
+2022-06-24 15:49:37,949 INFO com.sapient.Main [main] Claim(claimId=134, policyNo=881, claimAmount=4175, claimDate=2022-07-25)
+2022-06-29 10:18:13,832 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: column "claim_id" of relation "Claim" does not exist
+  Position: 27
+2022-06-29 10:38:14,134 INFO com.sapient.dao.ClaimPostgresImplTest [main] No suitable driver found for jdbc:postgresql://localhost:5432/globalinsdb
+2022-06-29 11:15:56,974 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: column "claim_id" does not exist
+  Hint: Perhaps you meant to reference the column "Claim.Claim_Id".
+  Position: 48
+2022-06-29 11:16:51,444 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: missing FROM-clause entry for table "claim"
+  Position: 54
+2022-06-29 11:34:21,529 INFO com.sapient.dao.ClaimPostgresImplTest [main] The column name 1 was not found in this ResultSet.
+2022-06-29 11:35:55,557 INFO com.sapient.dao.ClaimPostgresImplTest [main] The column name 4 was not found in this ResultSet.
+2022-06-29 14:50:31,779 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: column "ClaimDate" is of type date but expression is of type bigint
+  Hint: You will need to rewrite or cast the expression.
+  Position: 41
+2022-06-29 14:50:32,228 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: column "Claim_Amount" of relation "Claim" does not exist
+  Position: 26
+2022-06-29 14:54:29,167 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: numeric field overflow
+  Detail: A field with precision 5, scale 0 must round to an absolute value less than 10^5.
+2022-06-29 17:06:24,983 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: numeric field overflow
+  Detail: A field with precision 5, scale 0 must round to an absolute value less than 10^5.
+2022-06-29 17:06:25,401 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: column "Claim_Amount" of relation "Claim" does not exist
+  Position: 26
+2022-06-29 17:08:39,184 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: numeric field overflow
+  Detail: A field with precision 5, scale 0 must round to an absolute value less than 10^5.
+2022-06-29 17:08:39,558 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: column "Claim_Amount" of relation "Claim" does not exist
+  Position: 26
+2022-06-29 17:31:45,139 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: numeric field overflow
+  Detail: A field with precision 5, scale 0 must round to an absolute value less than 10^5.
+2022-06-29 17:31:45,252 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: column "Claim_Amount" of relation "Claim" does not exist
+  Position: 26
+2022-06-30 08:43:28,368 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: numeric field overflow
+  Detail: A field with precision 5, scale 0 must round to an absolute value less than 10^5.
+2022-07-07 16:20:57,538 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: duplicate key value violates unique constraint "Claim_pkey"
+  Detail: Key ("Claim_Id")=(48568) already exists.
+2022-07-08 08:54:42,080 INFO com.sapient.dao.ClaimPostgresImplTest [main] ERROR: duplicate key value violates unique constraint "Claim_pkey"
+  Detail: Key ("Claim_Id")=(48568) already exists.
